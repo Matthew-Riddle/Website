@@ -32,6 +32,9 @@ h2 {
   font-size: 40px;
   margin-top: 0;
 }
+h3 {
+  margin: 0;
+}
 a {
   color: #EF233C;
 }
@@ -40,6 +43,9 @@ a {
 }
 a:hover {
   text-decoration: none;
+}
+p {
+  line-height: 1.6;
 }
 .content-wrap {
   max-width: 950px;
@@ -51,17 +57,20 @@ a:hover {
   width: 30%;
   float: left;
   min-height: 175px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .col-wide {
   width: 70%;
   float:left;
   padding-left: 20px;
   min-height: 175px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .summary {
   line-height: 150%;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 /* Header and Footer
 --------------------------------*/
@@ -90,6 +99,12 @@ footer {
 --------------------------------*/
 .work {
   background: #EDF2F4;
+}
+h3 ~ p {
+  margin: 0;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
 }
 
 /* Education
