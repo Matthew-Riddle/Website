@@ -56,14 +56,14 @@ p {
 .col-narrow {
   width: 30%;
   float: left;
-  min-height: 175px;
+  /* min-height: 175px; */
   /* border: 1px solid black; */
 }
 .col-wide {
   width: 70%;
   float:left;
   padding-left: 20px;
-  min-height: 175px;
+  /* min-height: 175px; */
   /* border: 1px solid black; */
 }
 .summary {
@@ -105,6 +105,9 @@ h3 ~ p {
 }
 .job-description p:first-of-type {
   margin-top: 0;
+}
+.job-description {
+  margin-bottom: 25px;
 }
 
 /* Education
