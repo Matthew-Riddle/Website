@@ -50,7 +50,7 @@ p {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
   overflow: auto;
 }
 .col-narrow {
@@ -74,11 +74,15 @@ p {
 }
 /* Header and Footer
 --------------------------------*/
+
 header, footer {
   background: #2B2D42;
   color: #8D99AE;
 }
 /* header */
+header {
+  padding-top: 50px;
+}
 header h1, header h2 {
   color: #EDF2F4;
   margin: 0;
@@ -93,6 +97,24 @@ footer {
 .contact-info a {
   padding: 10px;
   display: inline-block;
+}
+
+
+/* navigation
+--------------------------------*/
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /* Work Experience
