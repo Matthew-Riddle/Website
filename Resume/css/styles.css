@@ -53,19 +53,7 @@ p {
   padding: 60px 50px;
   overflow: auto;
 }
-.col-narrow {
-  width: 30%;
-  float: left;
-  /* min-height: 175px; */
-  /* border: 1px solid black; */
-}
-.col-wide {
-  width: 70%;
-  float:left;
-  padding-left: 20px;
-  /* min-height: 175px; */
-  /* border: 1px solid black; */
-}
+
 .summary {
   line-height: 150%;
 }
@@ -78,6 +66,10 @@ p {
   color: white;
   padding: 10px;
   display: inline-block;
+}
+.btn:hover {
+  background: white;
+  color: #EF233C;
 }
 /* Header and Footer
 --------------------------------*/
@@ -112,6 +104,9 @@ footer {
   padding: 10px;
   display: inline-block;
 }
+.contact-info a:hover {
+  color: white;
+}
 
 
 /* navigation
@@ -130,6 +125,10 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
+}
+nav a:hover {
+  background: #EF233C;
+  color: white;
 }
 
 /* Work Experience
@@ -150,8 +149,42 @@ h3 ~ p {
 /* Education
 --------------------------------*/
 .education {
-  background: #8D99AE;
+  /* background: #8D99AE; */
+  background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(141, 153, 174, 0.6)),
+              url(../images/WorldBackdrop.jpg) no-repeat fixed;
+  background-size: cover;
+}
+.text-backdrop {
+  /* border: 1px solid red; */
+  background: rgba(141, 153, 174, 0.5);
+  /* display: inline-block; */
 }
 p + h3 {
   margin-top: 30px;
+}
+
+/* Media Query
+--------------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+    /* min-height: 175px; */
+    /* border: 1px solid black; */
+  }
+  .col-wide {
+    width: 70%;
+    float:left;
+    padding-left: 20px;
+    /* min-height: 175px; */
+    /* border: 1px solid black; */
+  }
+}
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
 }
