@@ -59,9 +59,14 @@ header, footer {
 
 header {
   color: #87FF7F;
+  border-bottom: 1px solid #31CB00;
 }
 header p {
   margin-left: 320px;
+}
+
+footer {
+  border-top: 1px solid #31CB00;
 }
 .profile-img {
   border-radius: 10%;
