@@ -1,0 +1,95 @@
+/*Color palette*/
+/*-------------
+#152614 Dark Jungle Green
+#1E441E Pomona Green
+#2A7221 Forest Green
+#119822 Lighter Forest Green
+#31CB00 Harlequin Green
+
+Second palette
+#BBDEF0 Pale Aqua
+#00A6A6 Persian Green (Blue)
+#EFCA08 Yello
+#F49F0A Orange
+#F08700 Tangerine
+
+---------------*/
+
+
+/* Global styles
+--------------------------------*/
+/* Box model fix */
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+/* End fix */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+}
+a {
+  color: #31CB00;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: auto;
+}
+
+/* Header and Footer
+--------------------------------*/
+header, footer {
+  background: #212121;
+  padding: 10px;
+  text-align: center;
+}
+
+header {
+  color: #87FF7F;
+}
+header p {
+  margin-left: 320px;
+}
+.profile-img {
+  border-radius: 10%;
+  margin: 0;
+  /* display: inline-block; */
+  float: left;
+}
+
+/* Blog
+--------------------------------*/
+.blog {
+  background: #D5FFC9;
+  color: #87FF7F;
+  padding: 300px 0px;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(../images/fantasywoods.png) no-repeat fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.text-backdrop {
+  background: rgba(0, 0, 0, .5)
+}
+
+
+/* Education
+--------------------------------*/
+.education {
+  color: #87FF7F;
+  background: url(../images/digiforest.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center center;
+}
