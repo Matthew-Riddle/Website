@@ -58,7 +58,7 @@ header, footer {
 }
 
 header {
-  color: #87FF7F;
+  color: #31CB00;
   border-bottom: 1px solid #31CB00;
 }
 header p {
@@ -86,7 +86,8 @@ footer {
   background-position: center center;
 }
 .text-backdrop {
-  background: rgba(0, 0, 0, .5)
+  background: rgba(0, 0, 0, .5);
+  padding: 25px;
 }
 
 
